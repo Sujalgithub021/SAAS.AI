@@ -13,7 +13,7 @@ await connectCloudinary()
 
 app.use(cors({
   origin: [
-    'https://saas-ai-psi.vercel.app/', 
+    'https://saas-ai-psi.vercel.app', 
     'http://localhost:5173'
   ]
 }))
